@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="vendor/normalize.css">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="pages/index.css">
         <title>Научиться учиться</title>
     </head>
     <body>
@@ -24,7 +25,7 @@
 
                 <img class="header__main-illustration" src="./images/two_again.png" alt="Картина под названием: 'Опять двойка'">
 
-                <div class="header__square-pic"></div>
+                <div class="header__square-pic rotation"></div>
             </header>
             
             <main class="content">
@@ -37,15 +38,15 @@
                         </div>
                         
                         <div class="two-columns__main-text">
-                            <p class="two-columns__paragaph">Ни в школе, ни в институте нас не учат 
+                            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат 
                                тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы 
                                тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге 
                                это не даёт нам реальногознания. Зубрёжка быстро выветривается и не приносит пользы.
                             </p>
-                            <p class="two-columns__paragaph two-columns__margin">
-                               <span>Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+                            <p class="two-columns__paragraph two-columns__margin">
+                               <span class="two-columns__span">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
                             </p>
-                            <p class="two-columns__paragaph">Конкретные техники и упражнения помогают изменить подход 
+                            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход 
                                к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения 
                                в Практикуме.
                             </p>
@@ -53,6 +54,103 @@
                     </div>
                 </section>
                 
+                <section class="techniques">
+                    <div class="section-title">
+                        Техники обучения
+                    </div>
+
+                    <div class="section-subtitle">
+                        Пять практик от Барбары Оакли
+                    </div>
+
+                    <div class="cards">
+                        <div class="cards__item">
+                            <img class="cards__image" src="./images/cards-attention.png" alt="Книга под названием: '101 эссе, которые изменят ваш образ мышления'">
+
+                            <div class="cards__title">
+                                Два вида внимания
+                            </div>
+
+                            <div class="cards__description">
+                                Глубокие значния возникают, если чередовать сфокусированное и рассеянное мышления.
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <img class="cards__image" src="./images/cards-recall.png" alt="Мраморная статуя">
+
+                            <div class="cards__title">
+                                Recall
+                            </div>
+
+                            <div class="cards__description">
+                                Вспоминайте изученное - это позволит соединить разрозненные порции памяти.
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <img class="cards__image" src="./images/cards-interliving.png" alt="Чёрно-белая фотография просторного помещения">
+
+                            <div class="cards__title">
+                                Интерливинг
+                            </div>
+
+                            <div class="cards__description">
+                                Изучайте несколько навыков одновременно, они обогащают друг друга.
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <img class="cards__image" src="./images/cards-question.png" alt="Просторное белое помещение">
+
+                            <div class="cards__title">
+                                Вопросы
+                            </div>
+
+                            <div class="cards__description">
+                                Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <img class="cards__image" src="./images/cards-competence.png" alt="Стопка книг">
+
+                            <div class="cards__title">
+                                Иллюзия компетентности
+                            </div>
+
+                            <div class="cards__description">
+                                Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="video">
+
+                </section>
+
+                <section class="oakley">
+
+                </section>
+                
+                <section class="feynman">
+                    <h2 class="feynman__title">
+                        Метод Фейнмана
+                    </h2>
+
+                    <p class="feynman__subtitle">
+                        Выучить и не забыть
+                    </p>
+
+                    <a href="#" class="feynman__link">
+                        Подробнее →
+                    </a>
+
+                    <img class="feynman__main-illustration" src="/images/feynman.png" alt="Ричард Фейнман">
+
+                </section>
+
                 <section class="digits">
                     <h2 class="section-title"> 
                         Цифры и факты 
@@ -144,23 +242,6 @@
                             </p>
                         </div>
                     </div>
-                </section>
-                
-                <section class="feynman">
-                    <h2 class="feynman__title">
-                        Метод Фейнмана
-                    </h2>
-
-                    <p class="feynman__subtitle">
-                        Выучить и не забыть
-                    </p>
-
-                    <a href="#" class="feynman__link">
-                        Подробнее →
-                    </a>
-
-                    <img class="feynman__main-illustration" src="/images/feynman.png" alt="Ричард Фейнман">
-
                 </section>
                 
                 <section class="kaufman">
@@ -275,7 +356,7 @@
                         </div>
                     </div>
 
-                    <img class="kaufman-triangle" 
+                    <img class="kaufman__triangle rotation" 
                          src="/images/kaufman-triangle.svg" 
                          alt="Треугольник">
                 </section>
